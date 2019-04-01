@@ -1,4 +1,4 @@
-Run npm install in order to install npm framework to run React app. Then follow the rest. (Preferably use CMDER to install npm)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

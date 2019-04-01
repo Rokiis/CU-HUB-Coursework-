@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Map from "../Containers/Map";
-import MapContainer from "../Containers/MapContainer"
 import "./CSS/events.css";
 
 // ────────────────────────────────────────────────────────────────────────────────

@@ -10,21 +10,23 @@ import Events from "./components/layout/Events";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <div className="App">       
-          <Navbar className="navbar-fixed-top"/>
-          <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/signIn" component={signIn} />
-            <Route path="/signUp" component={signUp} />
-            <Route path="/modules" component={Modules} />
-            <Route path="/grades" component={Grades} />
-            <Route path="/deadlines" component={Deadlines} />
-            <Route path="/events" component={Events}/>
-          </Switch>
-        </div>
+ 
+    render() {
+      return (
+
+        <BrowserRouter>
+          <div className="App">       
+            <Navbar className="navbar-fixed-top"/>
+            <Switch>
+              <Route path="/" exact component={HomePage} />
+              <Route path="/signIn" component={signIn} />
+              <Route path="/signUp" component={signUp} />
+              <Route path="/modules" component={Modules} />
+              <Route path="/grades" component={Grades} />
+              <Route path="/deadlines" component={Deadlines} />
+              <Route path="/events" component={Events}/>
+            </Switch>
+          </div>
       </BrowserRouter>
     );
   }

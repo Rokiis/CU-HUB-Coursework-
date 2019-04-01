@@ -2,24 +2,26 @@
 // ─── IMPORTS ────────────────────────────────────────────────────────────────────
 //
 
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // ────────────────────────────────────────────────────────────────────────────────
 
 class signIn extends Component {
   state = {
-    email: '',
-    password: '',
-    firstName: '',
+    SID: null,
+    firstName: null,
+    lastName: null,
+    email: null,
+    password: null
   };
 
-  handleChange = (e) => {
+  handleChange = e => {
     this.setState({
       [e.target.id]: e.target.value
     });
   };
 
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
     console.log(this.state);
   };
@@ -34,11 +36,20 @@ class signIn extends Component {
                 <strong> Register </strong>
               </h3>
             </div>
-            
+            <div className="form-group">
+              <label> Student ID </label>
+              <input
+                type="int"
+                id="SID"
+                className="form-control"
+                onChange={this.handleChange}
+                placeholder="Student ID"
+              />
+            </div>
             <div className="panel-body">
               <form onSubmit={this.handleSubmit}>
                 <div className="form-group">
-                <label> Name </label>
+                  <label> Name </label>
                   <input
                     type="name"
                     id="name"
@@ -46,8 +57,8 @@ class signIn extends Component {
                     onChange={this.handleChange}
                     placeholder="First Name"
                   />
-                </div>                  
-                  <div className="form-group">
+                </div>
+                <div className="form-group">
                   <label> Surname </label>
                   <input
                     type="name"
@@ -56,18 +67,8 @@ class signIn extends Component {
                     onChange={this.handleChange}
                     placeholder="Last Name"
                   />
-                </div>                  
-                  <div className="form-group">
-                  <label> Student ID </label>
-                  <input
-                    type="int"
-                    id="SID"
-                    className="form-control"
-                    onChange={this.handleChange}
-                    placeholder="Student ID"
-                  />
-                </div>                  
-                  <div className="form-group">
+                </div>
+                <div className="form-group">
                   <label> Email </label>
                   <input
                     type="email"
@@ -108,7 +109,5 @@ class signIn extends Component {
     );
   }
 }
-
-
 
 export default signIn;

@@ -1,19 +1,21 @@
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 import React, { Component } from "react";
+import Image from 'react-bootstrap/Image'
 
 // ────────────────────────────────────────────────────────────────────────────────
-var icon = (
-  <span class="logo">
-    <a href="/">
-      <img src="/logo.png" height="150" width="120" alt="text here" /></a>
-  </span>
-);
 class NavBar extends Component {
   render() {
     return (
       <div className="main" variant="dark">
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/" brand={icon}></Navbar.Brand>
+          <Navbar.Brand href="/" > <Image 
+            alt=""
+            src="https://github.coventry.ac.uk/raw/navickar/CUHub/master/src/logo.png"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />
+          </Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="/signin">Sign In</Nav.Link>
             <Nav.Link href="https://webapp.coventry.ac.uk/Timetable-main/studentportal" target="_blank">Timetable</Nav.Link>
