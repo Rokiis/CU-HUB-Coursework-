@@ -36,7 +36,9 @@ The web is using https://console.firebase.google.com as a database
 
 
 ## Built with:
-[React] (https://reactjs.org/)
-[FireStore](https://firebase.google.com/)
+*[React](https://reactjs.org/)
+
+*[FireStore](https://firebase.google.com/)
+
 ## CMD interface used to launch npm
-[CMDER](https://cmder.net/)
+*[CMDER](https://cmder.net/)
