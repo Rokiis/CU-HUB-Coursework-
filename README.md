@@ -1,4 +1,8 @@
 # CUHub
+## Team Members:
+* Rokas Navickas navickar
+* Edmund Narkwa Narkwae
+* Nourah
 ## The team's Git Repository for a 206CDE project
 
 ##Instructions for team to launch a project on their work stations locally:
@@ -36,9 +40,9 @@ The web is using https://console.firebase.google.com as a database
 
 
 ## Built with:
-*[React](https://reactjs.org/)
+* [React](https://reactjs.org/)
 
-*[FireStore](https://firebase.google.com/)
+* [FireStore](https://firebase.google.com/)
 
 ## CMD interface used to launch npm
-*[CMDER](https://cmder.net/)
+* [CMDER](https://cmder.net/)
