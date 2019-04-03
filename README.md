@@ -2,7 +2,7 @@
 ## Team Members:
 * Rokas Navickas navickar
 * Edmund Narkwa Narkwae
-* Nourah
+* Nourah(please update your full name here)
 ## The team's Git Repository for a 206CDE project
 
 ##Instructions for team to launch a project on their work stations locally:
