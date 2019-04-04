@@ -5,7 +5,7 @@
 * Nourah(please update your full name here)
 ## The team's Git Repository for a 206CDE project
 
-##Instructions for team to launch a project on their work stations locally:
+## Instructions for team to launch a project on their work stations locally:
 
 To launch the website on local machine go to the terminal(I have used CMDER)
 ```
